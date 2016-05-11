@@ -22,7 +22,7 @@ var i;
 var text="";
 var currentWord = [];
 var wordChoices = ['maudies', 'chuys', 'jackallens', 'uchiko', 'lamberts', 'franklins', 'latraviata', 'fondasanmiguel'];
-var imgChoices = ["assets/images/maudies.png", "assets/images/chuys.gif", "assets/images/jack-allens-logo.png", "assets/images/uchiko.png", "assets/images/lamberts.png", "assets/images/franklins_BBQ.jpg", "assets/images/latraviata.jpg", "assets/images/fonda_san_miguel.jpg"];
+var imgChoices = ["assets/images/maudies.png", "assets/images/chuys.png", "assets/images/jack-allens-logo.png", "assets/images/uchiko.png", "assets/images/lamberts.png", "assets/images/franklins_BBQ.jpg", "assets/images/latraviata.jpg", "assets/images/fonda_san_miguel.jpg"];
 
 //Randomly chooses a string from an array wordChoices
 var chosenString = wordChoices[Math.floor(Math.random() * wordChoices.length)];
