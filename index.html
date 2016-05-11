@@ -1,73 +1,103 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hangman</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
 
-</head>
-<body>
+    <title>Hangman Game</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
 
-<!-- Sets the javascript-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <!-- Sets the javascript-->
 <script type="text/javascript" src="assets/javascript/game.js">
-
 </script>
 
-<header id="masthead">
-		<div class="container">
-			<a id="logo">Hangman Game</a>
-		</div>
-	</header>
+    <div class="container">
+      <div class="header clearfix">
+        <!--<nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#"></a></li>
+            <li role="presentation"><a href="#"></a></li>
+            <li role="presentation"><a href="#"></a></li>
+          </ul>
+        </nav>-->
+        <h3 class="text-muted">Austin Restaurant Hangman Game</h3>
+      </div>
 
-<div id="main-container" class="container">
-		<section class="main-section">
-			<h1>Press the space bar to start the game.</h1>
-			<div id="game_image">
-				<img id="image1" src="assets/images/food_plate.jpg" alt="food plate">
-			</div>	
-		</section>
+      <div class="jumbotron">
+        <h1></h1>
+        <p class="lead"></p>
+              <div id="game_image">
+              <img id="image1" src="assets/images/food_plate.jpg" alt="food plate">
+      </div>
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+      </div>
 
-		<section class="sidebar">
-			<div id="game_console">
-				<h2></h2>
+      <div class="row marketing">
+        <div class="col-lg-6" id="game_console">
+          <h4>Press the spacebar to get started</h4>
+          <p></p>
 
-				<div>
-				<!--<p>Press any key to get started.</p>-->
-				</div>
+          <h4>Wins : </h4>
+          <!--<p></p>-->
 
-				<div>
-				<p>Wins : </p>
-				</div>
+          <h4>Current Word : </h4>
+          <!--<p></p>-->
 
-				<div>
-					<p>Current Word : </p>
-				</div>
-				<div>
-					<p>               </p>
-				</div>
+          <h4>Number of Guesses Remaining : </h4>
+          <!--<p></p>-->
 
-				<div>
-					<p>Number of Guesses Remaining : </p>
-				</div>
-				<div>
-					<p>  </p>
-				</div>
-				<div>
-					<p>Letters Already Guessed : </p>
-				</div>
-				<div>
-					<p></p>
-				</div>
-			</div>
-		</section>
-	</div>
+          <h4>Letters Already Guessed : </h4>
+          <!--<p></p>-->
 
-	<footer>
-		<div class="container">
-		</div>
-	</footer>
-</body>
+        </div>
+
+        <!--<div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>-->
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2016 Gracelyn Durst</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
